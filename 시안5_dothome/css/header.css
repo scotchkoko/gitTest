@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* ---------- 헤더 ---------- */
+
+header {
+	min-width: 960px;
+	height: 80px;
+	text-align: center;
+	border-bottom: 2px solid #0B8EA9;
+	background: white;
+	position: relative;
+	z-index: 99999;
+}
+header div.wrap {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+header h1 {
+	float: left;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+	/* ------- lnb ------- */
+header ul.lnb {
+	float: right;
+	margin-top: 10px;
+}
+header ul.lnb li {	
+	float: left;
+	margin: 0 5px;
+}
+
+	/* ------- menu ------- */
+header ul.menu {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 170px;
+}
+header ul.menu li {
+	background: url(../images/line_gnb.gif) no-repeat left;
+}
+header ul.menu li:first-child {
+	background: none;
+}
+header ul.menu li {
+	float: left;
+}
+header > ul.menu > li {
+	height: 40px;
+}
+header ul.menu li:first-child > a {
+	padding: 0 10px;
+}
+header ul.menu > li > a {
+	display: block;
+	width: 80px; height: 40px;
+	line-height: 40px;
+}
+header ul.menu > li:hover > a {
+	height: 37px;
+	border-bottom: 3px solid #0B8EA9;
+}
+header ul.menu li a img {
+	vertical-align: middle;
+}
+header ul.menu ul {
+	width: 960px;
+	background: rgba(255,255,255,0.7);
+	border-top: 2px solid #0B8EA9;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0px 1px 1px 1px #5d5d5d;
+	position: absolute;
+	top:100%; left: -170px;
+	display: none;
+	z-index: 999;	
+}
+header ul.menu li ul li {
+	height: 30px;
+	text-align: left;
+}
+header ul.menu li ul li a {
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	padding: 0 10px;
+}
+header ul.menu ul.box1 li:first-child {
+	margin-left: 92px;
+}
+header ul.menu ul.box2 li:first-child {
+	margin-left: 201px;
+}
+header ul.menu ul.box3 li:first-child {
+	margin-left: 290px;
+}
+header ul.menu ul.box4 li:first-child {
+	margin-left: 358px;
+}
+header ul.menu ul.box5 li:first-child {
+	margin-left: 450px;
+}
+header ul.menu ul.box6 li:first-child {
+	margin-left: 540px;
+}
+header ul.menu ul.box7 li:first-child {
+	margin-left: 602px;
+}
+header ul.menu li:hover ul {
+	display: block;
+}
+header ul.menu li ul li a:hover {
+	height: 27px;
+	border-bottom: 3px solid #0B8EA9;
+}

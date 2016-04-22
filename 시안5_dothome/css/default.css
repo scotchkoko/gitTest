@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* ---------- 기본설정 값 ---------- */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* { margin: 0; padding: 0; border: 0; }
+li { list-style: none; }
+a { text-decoration: none; color: black; }
+img { vertical-align: top; }
+
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	background: #F7F8F8;
+}

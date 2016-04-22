@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title> Web Flavor </title>
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/main_Image.css" />
+	<link rel="stylesheet" type="text/css" href="css/bannner.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	 <link rel="stylesheet" href="css/lean-slider.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/modernizr-2.6.1.min.js"></script>
+	<script src="js/lean-slider.js"></script>
+</head>
+<body>
+<!-- ------------------------ header ------------------------ -->
+	<header>
+		<div class="wrap">
+			<h1>
+				<a href="http://nature.dothome.co.kr/index.html">
+					<img src="images/logo.png" alt="logo" />
+				</a>
+			</h1>
+			<ul class="lnb">
+				<li>
+					<a href="http://nature.dothome.co.kr/index.html">
+						<img src="images/topmenu_1.png" alt="home" />
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/topmenu_2.png" alt="Customer Center" />
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/topmenu_3.png" alt="sitemap" />
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/topmenu_4.png" alt="english" />
+					</a>
+				</li>
+			</ul>
+			<ul class="menu">
+				<li>
+					<a href="gallery/gallery.html">
+						<img src="images/gnb_1.png" alt="지속가능경영" />
+					</a>
+					<ul class="box1">
+						<li>
+							<a href="#">
+								<img src="images/allmenu_01_01_off.gif" alt="지속가능경영" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_01_02_off.gif" alt="고객가치" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_01_03_off.gif" alt="품질·안전·환경경영" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_01_04_off.gif" alt="윤리경영" />
+							</a>
+						</li>
+						<li>
+							<a href="gallery/gallery.html">
+								<img src="images/allmenu_01_05_off.gif" alt="사회공헌" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_01_06_off.gif" alt="상생경영" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="sub_page/sub_page.html">
+						<img src="images/gnb_2.png" alt="회사소개" />
+					</a>
+					<ul class="box2">
+						<li>
+							<a href="sub_page/sub_page.html">
+								<img src="images/allmenu_02_01_off.gif" alt="CEO인사말" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_02_02_off.gif" alt="비젼핵심가치" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_02_03_off.gif" alt="연혁" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_02_04_off.gif" alt="조직도" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_02_05_off.gif" alt="해외지사 현황" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_02_06_off.gif" alt="수상실적" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_02_07_off.gif" alt="오시는길" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/gnb_3.png" alt="기술·혁신" />
+					</a>
+					<ul class="box3">
+						<li>
+							<a href="#">
+								<img src="images/allmenu_03_01_off.gif" alt="최신기술" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_03_02_off.gif" alt="기술 Infra" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_03_03_off.gif" alt="경영혁신활동" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_03_04_off.gif" alt="경영현식성과" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/gnb_4.png" alt="사업영역" />
+					</a>
+					<ul class="box4">
+						<li>
+							<a href="#">
+								<img src="images/allmenu_04_01_off.gif" alt="플랜트 사업" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_04_02_off.gif" alt="발전 환경 사업" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_04_03_off.gif" alt="주택 사업" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_04_04_off.gif" alt="건축 사업" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_04_05_off.gif" alt="토목 사업" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_04_06_off.gif" alt="개발 사업" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_04_07_off.gif" alt="실적 검색" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/gnb_5.png" alt="투자정보" />
+					</a>
+					<ul class="box5">
+						<li>
+							<a href="#">
+								<img src="images/allmenu_05_01_off.gif" alt="경영정보" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_05_02_off.gif" alt="공시정보" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_05_03_off.gif" alt="주가정보" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_05_04_off.gif" alt="재무정보" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_05_05_off.gif" alt="IR자료실" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/gnb_6.png" alt="인재채용" />
+					</a>
+					<ul  class="box6">
+						<li>
+							<a href="#">
+								<img src="images/allmenu_06_01_off.gif" alt="인재상" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_06_02_off.gif" alt="인사제도" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_06_03_off.gif" alt="채용공고" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_06_04_off.gif" alt="채용가이드" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_06_05_off.gif" alt="공지사항/Q&A" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_06_06_off.gif" alt="지원확인" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="board/board.html">
+						<img src="images/gnb_7.png" alt="홍보센터" />
+					</a>
+					<ul  class="box7">
+						<li>
+							<a href="board/board.html">
+								<img src="images/allmenu_07_01_off.gif" alt="공지&뉴스" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_07_02_off.gif" alt="공고" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_07_03_off.gif" alt="홍보자료" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_07_04_off.gif" alt="CI/BI" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_07_05_off.gif" alt="기술지" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/allmenu_07_06_off.gif" alt="e-Brochure" />
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+<!-- ------------------------ main_Image ------------------------ -->
+	<div class="wrap3">
+		<div class="slider-wrapper">
+			<div id="slider">
+				<div class="slide1">
+					<img src="images/main_bg01.png" alt="메인이미지1" />
+				</div>
+				<div class="slide2">
+					<img src="images/main_bg02.png" alt="메인이미지2" />
+				</div>
+				<div class="slide3">
+					<img src="images/main_bg03.png" alt="메인이미지3" />
+				</div>
+				<div class="slide4">
+					<img src="images/main_bg04.png" alt="메인이미지4" />
+				</div>
+			</div>
+			<div id="slider-direction-nav"></div>
+			<div id="slider-control-nav"></div>
+		</div>
+	</div>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var slider = $('#slider').leanSlider({
+            directionNav: '#slider-direction-nav',
+            controlNav: '#slider-control-nav'
+        });
+    });
+    </script>
+
+<!-- ------------------------ icon ------------------------ -->
+
+	<section id="icon">
+		<article class="icon">
+			<ul>
+				<li>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</article>
+	</section>
+
+<!-- ------------------------ data ------------------------ -->
+
+	<section id="data">
+		<div class="notice">
+			<div class="tab active" rel="tab1">
+				<div></div>
+				<a href="#">더 보기</a>
+			</div>
+			<div class="tab" rel="tab2">
+				<div></div>
+				<a href="#">더 보기</a>
+			</div>
+			<div id="tab1" class="tab_content">
+				<div><a href="#"><p> · [해외건설 50년, 다시쓰는 건설신화]GS건설, 이집트 ERC 프로젝트</p><span>2015.08.12</span></a></div>
+				<div><a href="#"><p> · 광교파크자이 더테라스_파티장·텃밭으로 쓸 수 있는 광폭 테라스</p><span>2015.08.07</span></a></div>
+				<div><a href="#"><p> · GS건설, 정유·석화 등 부문간 협업으로 원가경쟁력 강화</p><span>2015.08.04</span></a></div>
+				<div><a href="#"><p> · GS건설, 정유·석화 등 부문간 협업으로 원가경쟁력 강화</p><span>2015.08.04</span></a></div>
+			</div>
+			<div id="tab2" class="tab_content">
+				<div><a href="#"><p> · 제46기 결산공고-연결</p><span>2015.03.27</span></a></div>
+				<div><a href="#"><p> · 제46기 결산공고-별도</p><span>2015.03.27</span></a></div>
+				<div><a href="#"><p> · GS건설 신주발행가액 확정공고</p><span>2014.05.28</span></a></div>
+				<div><a href="#"><p> · GS건설 신주발행가액 확정공고</p><span>2014.05.28</span></a></div>
+			</div>
+			<script>
+				$(document).ready(function() {
+					
+					$('.tab_content').hide();
+					$('.tab_content:first').show();
+					$('div.tab a').hide();
+					$('div.tab.active a').show();
+					$('div.tab').click(function() {
+						$('div.tab').removeClass('active').css('background-color','white');
+						$(this).addClass('active').css('background','#0B8EA9');
+						$('div.tab div').css('background-position','0 -14px');
+						$('div.active div').css('background-position','0 0');
+						$('div.tab a').css('display','none');
+						$('div.active a').css('display','block');
+						$('.tab_content').hide();
+						var activeTab = $(this).attr('rel');
+						$("#" + activeTab).show()
+					});
+				});
+			</script>
+		</div>
+		<a href="#" class="service"></a>
+		<a href="#" class="xi"></a>
+	</section>
+
+<!-- ------------------------ footer ------------------------ -->
+
+	<div class="wrap2">
+		<footer>
+			<address>110-130 서울특별시 종로구 종로33 그랑서울 대표전화 02.2154.1114 E-MAIL. WEBMASTER@GSCONST.CO.KR <a href="#">개인정보처리방침</a> <a href="#">이메일무단수집거부</a>
+			<br />
+			COPYRIGHT 2011 GS E&C. ALL RIGHTS RESERVED.
+			</address>
+			<div class="side">
+				<img src="images/wah.png" alt="logo_wah" class="wah" />
+				<img src="images/family.gif" alt="familylink" class="open" />
+				<div class="family_site">
+					<img src="images/btn_family_close.gif" alt=" 닫기 아이콘"  class="close" />
+					<div class="box1">
+						<img src="images/family_tit.gif" alt="RELATED LINKS"/>
+					</div>
+					<div class="box2 box">
+						<div class="left">
+							<img src="images/web_tit_1.gif" alt="자이사이트"/>
+						</div>
+						<div class="right">
+							<a href="#">
+								<img src="images/web_01_1_off.gif" alt="Xi Korea" />
+							</a>
+							<a href="#">
+								<img src="images/web_01_2_off.gif" alt="Xi Global" />
+							</a>
+							<a href="#">
+								<img src="images/web_01_3_off.gif" alt="Xi Vietnam" />
+							</a>
+						</div>
+					</div>
+					<div class="box3 box">
+						<div class="left">
+							<img src="images/web_tit_2.gif" alt="GS E&C" />
+						</div>
+						<div class="right">
+							<a href="#">
+								<img src="images/web_02_1_off.gif" alt="GS건설 아름다운이야기" />
+							</a>
+						</div>
+					</div>
+					<div class="box4 box">
+						<div class="left">
+							<img src="images/web_tit_3N.gif" alt="자회사" />
+						</div>
+						<div class="right">
+							<a href="#">
+								<img src="images/web_03_1_off.gif" alt="엘리시안" />
+							</a>
+							<a href="#">
+								<img src="images/web_03_2_off.gif" alt="이지빌" />
+							</a>
+							<a href="#">
+								<img src="images/web_03_3_off.gif" alt="GS O&M" />
+							</a>
+							<br />
+							<a href="#">
+								<img src="images/web_03_4_off.gif" alt="GS India" />
+							</a>
+							<a href="#">
+								<img src="images/web_03_5_off.gif" alt="GS Manila" />
+							</a>
+						</div>
+					</div>
+					<div class="box5 box">
+						<div class="left">
+							<img src="images/web_tit_4.gif"  alt="B2B 사이트"/>
+						</div>
+						<div class="right">
+							<a href="#">
+								<img src="images/web_04_1_off.gif" alt="TPMS Portal" />
+							</a>
+							<a href="#">
+								<img src="images/web_04_2_off.gif" alt="GS파트너(외주)" />
+							</a>
+							<br />
+							<a href="#">
+								<img src="images/web_04_3_off.gif" alt="GS CONSTMAT" />
+							</a>
+							<a href="#">
+								<img src="images/web_04_4_off.gif" alt="GS Buyer" />
+							</a>
+						</div>
+					</div>
+					<div class="box6 box">
+						<div class="left">
+							<img src="images/web_tit_5N.gif" alt="관계사" />
+						</div>
+						<div class="right">
+							<a href="#">
+								<img src="images/web_05_1_off.gif" alt="GS 칼텍스" />
+							</a>
+							<a href="#">
+								<img src="images/web_05_2_off.gif" alt="GS 리테일" />
+							</a>
+							<a href="#">
+								<img src="images/web_05_3_off.gif" alt="GS 홈쇼핑" />
+							</a>
+							<a href="#">
+								<img src="images/web_05_4_off.gif" alt="GS EPS" />
+							</a>
+							<a href="#">
+								<img src="images/web_05_5_off.gif" alt="GS 스포츠" />
+							</a>
+							<a href="#">
+								<img src="images/web_05_6_off.gif" alt="GS 홀딩스" />
+							</a>
+							<a href="#">
+								<img src="images/web_05_7_off.gif" alt="GS 타워" />
+							</a>
+						</div>
+					</div>
+					<script>
+					$(document).ready(function() {
+						$('div.family_site').hide();
+						var open = $('img.open');
+						var close = $('img.close');
+						open.click(function() {
+							$('div.family_site').show();
+						});
+						close.click(function() {
+							$('div.family_site').hide();
+						});
+					});
+				</script>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>

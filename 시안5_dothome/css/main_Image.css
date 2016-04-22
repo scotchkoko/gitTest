@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/* ----------- 메인 이미지 -----------*/
+
+div.wrap3 {
+	width: 100%; height: 450px;
+	overflow: hidden;
+}
+.slider-wrapper { 
+	width: 960px; height: 450px;
+	margin: 0 auto;
+	position: relative; 
+	overflow: none;
+}
+#slider > div {
+	position: absolute;
+	top: 0; left: -550px;
+}
+.lean-slider-slide {
+    display: block;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s linear;
+    -moz-transition: opacity 0.6s linear;
+    -ms-transition: opacity 0.6s linear;
+    -o-transition: opacity 0.6s linear;
+    transition: opacity 0.6s linear;
+}
+.lean-slider-slide.current { opacity: 1; }
+
+#slider-direction-nav {
+    position: absolute;
+    left: 0;
+    top: 175PX;
+    width: 100%;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    opacity: 0.2;
+}
+.slider-wrapper:hover #slider-direction-nav { opacity: 1; }
+#slider-direction-nav a {
+    float: left;
+    display: block;
+    width: 30px;
+    height: 100px;
+    background: url(../images/arrows1.png) no-repeat 0 0;
+    text-indent: -9999px;
+	z-index: 999999999999;
+}
+#slider-direction-nav .lean-slider-prev {
+	 top: 0; left: 0;
+}
+#slider-direction-nav .lean-slider-next {
+    float: right;
+    background-position: 100% 0;
+	top: 0; right: 0;
+}
+
+#slider-control-nav {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    opacity: 0.2;
+}
+.slider-wrapper:hover #slider-control-nav { opacity: 1; }
+#slider-control-nav a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/bullets.png) no-repeat 0 0;
+    text-indent: -9999px;
+    margin: 0 3px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+#slider-control-nav a.active { background-position: 100% 0; }
